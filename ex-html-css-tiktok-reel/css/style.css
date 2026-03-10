@@ -145,3 +145,11 @@ da rimuovere una volta concluso
 .reel-page {
 	position: relative;
 }
+
+.description{
+	position: absolute;
+	left: 10px;
+	max-width: 350px;
+	bottom: 100px;
+	z-index: 3;
+}
