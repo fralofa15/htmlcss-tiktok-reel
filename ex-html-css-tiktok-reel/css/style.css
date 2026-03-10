@@ -118,38 +118,80 @@ da rimuovere una volta concluso
 }
 
 .interaction-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
 }
 
 .reel-img {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	object-fit: cover;
+	display: block;
 }
 
 .interaction-item i {
-  font-size: 28px;
-  color: white;
+	font-size: 28px;
+	color: white;
 }
 
 .interaction-item span {
-  font-size: 14px;
-  color: white;
+	font-size: 14px;
+	color: white;
 }
 
 .reel-page {
 	position: relative;
 }
 
-.description{
+.description {
 	position: absolute;
 	left: 10px;
 	max-width: 350px;
 	bottom: 100px;
 	z-index: 3;
+}
+
+.footer-bar {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	background: black;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 3;
+}
+
+.footer-item i {
+	font-size: 22px;
+}
+
+.footer-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 11px;
+}
+
+.notifications {
+	position: absolute;
+	top: 25px;
+	right: 140px;
+	background-color: red;
+	border-radius: 50%;
+	padding: 1px 4px;
+}
+
+.box {
+	color: black;
+	background-color: white;
+	padding: 3px 7px;
+	border-radius: 10px;
+	box-shadow: -6px 0 #25F4EE, 6px 0 #FE2C55;
 }
